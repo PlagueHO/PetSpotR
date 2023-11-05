@@ -30,7 +30,11 @@
 			"dunn.redis",
 			"GitHub.copilot",
 			"GitHub.copilot-chat",
-			"ms-dotnettools.csdevkit"
+			"ms-dotnettools.csdevkit",
+			"GitHub.copilot-labs",
+			"GitHub.heygithub",
+			"github.vscode-github-actions",
+			"GitHub.remotehub"
 		]
       }
     },
