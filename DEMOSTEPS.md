@@ -5,7 +5,15 @@
 ### Code Creation (JS)
 
 1. Open `./src/api/PetSpotR/app.js`
-2. Add comment to pets object `// Create 20 more sample pets with a fake/test owneremail and different names, ages, type and breed`
+1. Add a new API request `// Get all pets by owneremail`
+1. Change API to `// Get all pets by owneremail. If there are no pets found, return an empty array.`
+1. Add comment to pets object `// Create 20 more sample pets with a fake/test owneremail and different names, ages, type and breed`
+1. Add comment
+
+```Javascript
+// Get all pets by name, but use a match that matches any part of the name.
+// Ignore punctuation and special characters in match
+```
 
 ### Code creation (C#)
 
