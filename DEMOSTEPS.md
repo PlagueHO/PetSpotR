@@ -2,6 +2,11 @@
 
 ## GitHub Copilot
 
+### Code Creation (HTML + Blazor)
+
+1. Open `./src/frontend/PetSpotR/Pages/LostPet.razor`
+1. Add `<!-- Add a new field for pet age that should not allow value higher than 30 -->` under.
+
 ### Code Creation (JS)
 
 1. Open `./src/api/PetSpotR/app.js`
@@ -17,8 +22,6 @@
 // Get all pets by name, but use a match that matches any part of the name.
 // Ignore punctuation and special characters in match
 ```
-
-1. Create tests
 
 ### Code creation (C#)
 
