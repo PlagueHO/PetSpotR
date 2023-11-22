@@ -17,7 +17,8 @@ app.get('/status', (_req, res) => {
 owneremail = 'test@contoso.com';
 
 const pets = [
-    { id: '1', name: 'Fluffy', age: 2, type: 'cat', breed: 'Siamese', owneremail: owneremail, state: 'new' }    
+    { id: '1', name: 'Fluffy', age: 2, type: 'cat', breed: 'Siamese', owneremail: owneremail, state: 'new' }
+    // Create 5 more sample pets with a fake/test owneremail and different names, ages, type and breed. Name each pet afer the first name of a New Zealand prime ministers.
   ];
 
 // Get a Find a Pet by ID
@@ -65,3 +66,13 @@ app.get('/pets/owneremail/:owneremail', (req, res) => {
     const pets = pets.filter((pet) => pet.owneremail === owneremail);
     res.status(200).send(pets);
 });
+
+// Create a new pet with name, age, type breed and owneremail.
+
+
+// Update a pet state
+
+
+// Get all pets by name, but use a match that matches any part of the name.
+// Ignore punctuation and special characters in match and use regex
+

@@ -61,6 +61,10 @@ namespace PetSpotR.Models
             return;
         }
 
+        /// <summary>
+        /// Calculates the age of the pet in years.
+        /// </summary>
+        /// <returns>The age of the pet in years.</returns>
         public int PetAgeInYears()
         {
             return (int) Math.Floor((DateTime.Now - DOB).TotalHours / 365);
