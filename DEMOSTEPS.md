@@ -50,3 +50,11 @@
 1. Select all code and open chat `/tests`
 1. Change to `/tests using FluentAssertions`
 1. Select all code and use `/fix`
+
+### Code debug and tests (C#)
+
+1. Open `./src/frontend/PetSpotR/Data/PetModel.cs`
+1. Is there a bug in this code?
+1. Write some unit tests for this code that validate the intention of the code, not the behavior.
+1. Will these tests currently pass?
+1. How could I change this code to make it more testable?
